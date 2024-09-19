@@ -1,0 +1,110 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-size: 20px;
+    font-family: Nunito Sans;
+    @import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+}
+
+.container {
+    border: 0px solid red;
+    width: 100%;
+    height: auto;
+    background: azure;
+}
+
+.row {
+    border: 0px solid green;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.col {
+    width: 50%;
+    height: 90%;
+    border: 0px solid gold;
+}
+
+.col:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+}
+
+.row .col:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: aliceblue;
+}
+
+h3 {
+    font-family: Hanuman;
+    @import url(https://fonts.googleapis.com/css?family=Hanuman:100,300,regular,700,900);
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 40px;
+}
+
+.row2 {
+    display: flex;
+    align-items: center;
+    border: 0px solid blue;
+    width: 100%;
+    height: 400px;
+}
+
+.Continue {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    margin: 1rem 0 0 0;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.Continue:hover {
+    transition: 0.5s;
+    background: ghostwhite;
+    color: rgb(87, 74, 0);
+    font-size: 25px;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 30px;
+    @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+}
+
+.col2 {
+    width: 25%;
+    height: 90%;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 10px 0 0;
+    background: goldenrod;
+    border-radius: 20px;
+}
+
+.col2 p {
+    line-height: 2.5rem;
+}
+
+.commission {
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    /* padding: 0 1rem 0 1rem; */
+    justify-content: space-between;
+}
+.commission p{
+    padding: 0 1rem 0 1rem;
+}
