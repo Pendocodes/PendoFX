@@ -1,0 +1,179 @@
+/* mobile phone view */
+
+@media screen and (max-width:750px) {
+    .row{
+        display: none;
+    }
+    .row-phone{
+        width: 100%;
+        height: 300px;
+        display: block;
+    }
+
+
+    .col-phone{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-image: url(image/logo.jpg);
+        background-size: cover;
+    }
+
+    .col-phone h1{
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+    }
+    .col-phone h3{
+        color: goldenrod;
+        padding-bottom: 2rem;
+    }
+
+    
+    .row2 {
+        display: flex;
+        align-items: center;
+        border: 0px solid blue;
+        width: 100%;
+        height: 400px;
+        flex-wrap: wrap;
+    }
+    
+    .Continue {
+        background-color: black;
+        color: aliceblue;
+        border-radius: 10px;
+        border: none;
+        width: 150px;
+        margin: 1rem 0 0 0;
+        padding: 0.5rem 0 0.5rem 0;
+    }
+    
+    .Continue:hover {
+        transition: 0.5s;
+        background: ghostwhite;
+        color: rgb(87, 74, 0);
+        font-size: 25px;
+        font-weight: 800;
+    }
+    
+    h2 {
+        font-family: Montserrat;
+        font-size: 30px;
+        @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+    
+    }
+    
+    .col2 {
+        width: 90%;
+        height: 90%;
+        border: 3px solid white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2% 10px 0 0;
+        background: goldenrod;
+        border-radius: 20px;
+        margin: 0 0 0 3%;
+    }
+    
+    .col2 p {
+        line-height: 2.5rem;
+    }
+    
+    .commission {
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        /* padding: 0 1rem 0 1rem; */
+        justify-content: space-between;
+    }
+    .commission p{
+        padding: 0 1rem 0 1rem;
+    }
+}
+
+
+
+
+
+
+/* ipad view */
+
+@media(min-width:750px) and (max-width:1250px){
+   
+    .col {
+        width: 50%;
+        height: 90%;
+        border: 0px solid gold;
+        padding: 0 0 0 1rem;
+        text-align: center;
+    }
+
+
+    
+    .row2 {
+        display: flex;
+        align-items: center;
+        border: 0px solid blue;
+        width: 100%;
+        height: 400px;
+        flex-wrap: wrap;
+    }
+    
+    .Continue {
+        background-color: black;
+        color: aliceblue;
+        border-radius: 10px;
+        border: none;
+        width: 150px;
+        margin: 1rem 0 0 0;
+        padding: 0.5rem 0 0.5rem 0;
+    }
+    
+    .Continue:hover {
+        transition: 0.5s;
+        background: ghostwhite;
+        color: rgb(87, 74, 0);
+        font-size: 25px;
+        font-weight: 800;
+    }
+    
+    h2 {
+        font-family: Montserrat;
+        font-size: 30px;
+        @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+    
+    }
+    
+    .col2 {
+        width: 46%;
+        height: 90%;
+        border: 3px solid white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2% 10px 0 0;
+        background: goldenrod;
+        border-radius: 20px;
+        margin: 0 0 0 1%;
+    }
+    
+    .col2 p {
+        line-height: 2.5rem;
+    }
+    
+    .commission {
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        /* padding: 0 1rem 0 1rem; */
+        justify-content: space-between;
+    }
+    .commission p{
+        padding: 0 1rem 0 1rem;
+    }
+}

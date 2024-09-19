@@ -20,6 +20,10 @@
     display: flex;
 }
 
+.row-phone{
+    display: none;
+}
+
 .col {
     width: 50%;
     height: 90%;
